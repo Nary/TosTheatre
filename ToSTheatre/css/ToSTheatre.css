@@ -1,0 +1,128 @@
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    font-family: "IMC-font", Helvetica, Arial, sans-serif;
+    background-color: gray;
+}
+
+
+.MainWidth {
+    width:1622px; /* 405*2 + 800 =1610 mais attentions aux border */
+}
+.Back_LefRightt_Width {    /*Bakcground Left+Right*/
+    width:405px;
+}
+.Back_Mid_Width { /*Bakcground Mid*/
+    width:800px;
+}
+
+.BackgroundHeight {
+    height:600px;
+}
+.SubHeight1 {
+    height:100px;
+}
+.SubHeight2 {
+    height:200px;
+}
+.borderStyle1 {
+    border-style: solid;
+}
+img {
+    max-width: 800px;
+    max-height: 600px;
+}
+
+@font-face {
+	font-family: "IMC-font";
+	src: url('../rsc/font/imcm_original.ttf');
+}
+
+/* //////////
+// Header  //
+///////////*/
+
+header {
+    display : flex;
+    width:100%;
+    justify-content: center;
+    flex-direction: row;
+}
+#HeaderDiv {
+
+    display:flex;
+    
+    justify-content: center;
+   
+}
+#HeaderDiv ul {
+    display: flex;
+    background-color: #002a3a;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#HeaderDiv ul li {
+    margin-bottom: 4px;
+    cursor: pointer;
+    list-style: none;
+}
+/* ////////////////////////
+// BACKGROUND+MAINSCENE  //
+/////////////////////////*/
+
+#SectionBackground {
+    display : flex;
+    width:100%;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+#BackLeft {
+    background-image: url("../rsc/img/background/tosChar1.jpg");
+   
+}
+#BackMiddle {
+    background-image: url("../rsc/img/background/smashFinalMap.jpg");
+    background-size: 800px 600px;
+    
+}
+#BackRight {
+    background-image: url("../rsc/img/background/tosChar2.jpg");
+
+}
+
+#MainScene {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* /////////////
+// SubSection //
+//////////////*/
+
+#SectionTextHUB {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#TextHubDiv{
+    background-color: #f2f0e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}

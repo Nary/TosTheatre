@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ToSTheatre Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ToSTheatre.css">
+    <script src="js/TosTheatre_mainScript.js"></script>
+</head>
+
+<body>
+    <header class="">
+        <div id="HeaderDiv" class="MainWidth SubHeight1 borderStyle1">
+            <ul>
+                <li onclick="NeFaitRien()">
+                        Jouer
+                </li>
+                <li  onclick="NeFaitRien()">
+                        Pause
+                </li>
+                <li  onclick="NeFaitRien()">
+                        Retour
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <section id="SectionBackground">
+        <div id="BackLeft" class="Back_LefRightt_Width BackgroundHeight borderStyle1"></div>
+        <div id="BackMiddle" class="Back_Mid_Width BackgroundHeight borderStyle1">
+            <div id="MainScene"> 
+                <img src="rsc/img/char/s1.jpg" id="p0"class="borderStyle1">
+            </div>
+        </div>
+        <div id="BackRight" class="Back_LefRightt_Width BackgroundHeight borderStyle1"> </div>
+    </section>
+    <section id="SectionTextHUB" onclick="TextHub_Clicked()">
+        <div id="TextHubDiv" class="MainWidth SubHeight2 borderStyle1">Cliquez ici pour démarrer et faire avancer la scène !</div>
+    </section>
+</body>
+
+</html>

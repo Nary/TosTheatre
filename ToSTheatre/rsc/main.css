@@ -1,0 +1,46 @@
+body {
+   
+    /* background-image: url("img/pure-css-snow-animation.gif"); */
+    font-family: "IMC-font", Helvetica, Arial, sans-serif;
+}
+@font-face {
+	font-family: "IMC-font";
+	src: url('font/imcm_original.ttf');
+}
+
+header {
+    color: goldenrod;
+    background-color: darkgreen;
+    text-shadow: 2px 2px 10px silver;
+}
+#noelImg {
+    border-style: solid;
+    /* padding:1px;
+    border:1px solid #021a40;
+    background-color:#ffffff; */
+}
+
+#hud{
+    border-style: solid;
+    border-color:black;
+    background-color: silver;
+    
+}
+
+#cutinBlock {
+    float:left;
+}
+
+#nameHud {
+    padding-left: 2px;
+    font-weight: bolder;
+}
+#descHud {
+    padding-left: 2px;
+}
+#textBlock {
+    float:left ;
+    padding:0px;
+    background-color: Wheat;
+    margin:0;
+}
